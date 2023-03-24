@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url('../img/sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(124, 188, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -20px;
+}
+.col-6{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.first-div{
+    max-width: 100%;
+    width: 100%;
+}
+.inp1{
+    width: 400px;
+    height: 50px;
+    max-width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    color: #010001;
+}
+.inp2{
+    width: 400px;
+    height: 50px;
+    max-width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    color: #010001;
+
+}
+select{
+    background-color: #e796cf;
+    
+}
+option{
+    color: aqua;
+}
